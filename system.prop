@@ -8,3 +8,10 @@ telephony.lteOnCdmaDevice=0
 
 # Ril sends only one RIL_UNSOL_CALL_RING, so set call_ring.multiple to false
 ro.telephony.call_ring.multiple=0
+
+# hardware info
+ro.device.cpu=1.2GHz dual-core TI OMAP 4460
+ro.device.gpu=PowerVR SGX SGX540
+ro.device.rear_cam=5 MP
+ro.device.front_cam=1.3 MP
+ro.device.screen_res=720x1280
