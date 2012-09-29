@@ -19,6 +19,9 @@
 # config.
 TARGET_BOARD_INFO_FILE ?= device/samsung/maguro/board-info.txt
 
+# Assert
+TARGET_OTA_ASSERT_DEVICE := maguro
+
 # Use the part that is common between all tunas
 include device/samsung/tuna/BoardConfig.mk
 
