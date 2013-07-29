@@ -16,3 +16,6 @@ ro.device.gpu=PowerVR SGX SGX540
 ro.device.rear_cam=5 MP
 ro.device.front_cam=1.3 MP
 ro.device.screen_res=720x1280
+
+# GPU producer to CPU consumer not supported
+ro.bq.gpu_to_cpu_unsupported=1
